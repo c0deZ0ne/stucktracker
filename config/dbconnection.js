@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const UserShares = require('../models/UserShares');
-const UserVideos = require('../models/videosModel')
 require('dotenv').config()
 
  const dburl=process.env.DATABASE;
