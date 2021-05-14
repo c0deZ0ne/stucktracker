@@ -38,7 +38,7 @@ module.exports = function userController(app) {
         **use   get /shares to get all your shares
         **use /sellshares/shareid eg 32hex value from your available shares
         **all routh is protected from unauthorised asses to data
-        ** check for price update for a particular share us /sharesupdate/id  note id is 32hex value
+        ** check for price update for a particular share us /qoute/symbol   not symbol is 3 string value ie IBM
         
         *******pls note you must register and login before you acces any of the routh except registeration routh thanks`
 
