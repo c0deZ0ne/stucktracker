@@ -114,8 +114,6 @@ module.exports = async function router(app) {
                         if (error) {
                             return res.status(200).json({ message: new Messages(200, "error updating current price") })
                         } else {
-
-                            res.status(200).json(new Messages(200,"in progress"), data);
                             let price = data.pc * volume_bought;
                             console.log(data.pc)
                             result.acountballance += price;
